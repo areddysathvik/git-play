@@ -1,5 +1,7 @@
-def hello():
-    return "Hello"
+def hello(name):
+    return f"Hello, {name}"
+
 
 if __name__ == "__main__":
-    hello()
+    name = input("Enter your name")
+    hello(name)
